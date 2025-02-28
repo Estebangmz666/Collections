@@ -1,14 +1,12 @@
 package com.example.ej2;
 
-public class Objeto {
+public class Objeto1 {
     private String nombre;
     private Integer edad;
-    private Integer id;
 
-    public Objeto(String nombre, Integer edad, Integer id) {
+    public Objeto1(String nombre, Integer edad) {
         this.nombre = nombre;
         this.edad = edad;
-        this.id = id;
     }
 
     public String getNombre() {
@@ -17,9 +15,5 @@ public class Objeto {
 
     public Integer getEdad() {
         return edad;
-    }
-
-    public Integer getId() {
-        return id;
     }
 }
